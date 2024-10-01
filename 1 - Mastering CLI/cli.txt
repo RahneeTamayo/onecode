@@ -1,0 +1,29 @@
+Gui Graphical User interface
+Cli Command Line interface
+
+- Make Directory
+mkdir [directory_name]
+
+- Delete Directory
+rmdir [directory_name]
+
+- Print/Present Working Directory
+ls
+
+- Change Directory
+cd [directory_name]
+
+-go back to parent Directory
+cd ..
+
+-Print Current Directory
+pwd
+
+- Make new file
+touch [filename.extension]
+
+- Delete file
+rm [filename.extension]
+
+- Clear current window
+Clear
