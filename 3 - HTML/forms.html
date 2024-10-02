@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating Forms</title>
+</head>
+<body>
+    <h1>Creating Forms</h1>
+    <form action="">
+        <div>
+        <label for="Fullname-id">Name:</label>
+        <input type="text" name="User-Fullname" id="Fullname-id" placeholder="Enter Fullname" required>
+        </div>
+
+        <div>
+            <label for="Email-id">Email:</label>
+            <input type="email" name="User-Email" id="Email-id" placeholder="@E-mail" required>
+        </div>
+
+        <div>
+            <label for="Password-id">Password:</label>
+            <input type="password" name="User-Password" id="Password-id" placeholder="***********" required>
+        </div>
+
+        <div>
+            <label for="Age-id">Age:</label>
+            <input type="number" name="User-Age" id="Age-id" placeholder="Age" min="18" max="70" required>
+        </div>
+
+        <div>
+            <label for="Message-id">Message:</label>
+            <br>
+            <textarea name="User-Message" id="Message-id" placeholder="TagLine" cols="30" rows="6"></textarea>
+        </div>
+
+        <div>
+            <label for="Gender-id">Gender:</label>
+            <select name="User-Gender" id="Gender-id">
+                <option value="none" hidden selected disabled>Select Gender</option>
+                <option value="M">Male</option>
+                <option value="F">Female</option>
+                <option value="O">Others</option>
+            </select>
+        </div>
+
+        <div>
+            <input type="radio" name="Profile-Status" id="Public-id" value="Public">
+            <label for="Public-id">Public</label>
+
+            <input type="radio" name="Profile-Status" id="Private-id" value="Public">
+            <label for="Private-id">Private</label>
+        </div>
+
+        <div>
+            <input type="checkbox" name="Genre" id="Anime-id" value="Anime">
+            <label for="Anime-id">Anime</label>
+            <input type="checkbox" name="Genre" id="Action-id" value="Action">
+            <label for="Action-id">Action</label>
+            <input type="checkbox" name="Genre" id="Comedy-id" value="Comedy">
+            <label for="Comedy-id">Comedy</label>
+        </div>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+    </form>
+
+</body>
+</html>
